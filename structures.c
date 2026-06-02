@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Función de suma
+// Función de suma en c
 int sumar(int a, int b) {
     return a + b;
 }
