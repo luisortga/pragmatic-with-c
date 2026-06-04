@@ -1,0 +1,1 @@
+compilador==GCC or Clang
