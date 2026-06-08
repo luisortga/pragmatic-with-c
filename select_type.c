@@ -1,10 +1,15 @@
 #include<stdio.h>
 
+void imprimir(int puntero) {
+    printf("%d", puntero);
+}
+
 int main() {
-    // punteros
     int value = 69;
-    // imprimir(valor);
     printf("%d", value);
+    
+    // punteros
+
 
     return 0;
 }
