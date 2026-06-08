@@ -1,14 +1,19 @@
 #include<stdio.h>
 
 void imprimir(int puntero) {
-    printf("%d", puntero);
+    printf("\nValor del puntero: %d", puntero);
 }
 
 int main() {
     int value = 69;
-    printf("%d", value);
+    printf("%d\n", value);
     
     // punteros
+    int number = 12;
+    int *point = &number;
+
+    *point = 24;
+    imprimir(*point);
 
 
     return 0;
