@@ -9,6 +9,6 @@ int main(void) {
 
     int *stack_two = &stack_one;
     printf("%p\n", stack_two);
-    printf("%p\n", (void *)stack_two);
+    printf("%d\n", stack_two);
     return 0;
 }
