@@ -13,11 +13,17 @@ void swap(int *a, int *b) {
 }
 
 int main() {
-    int x = 5;
-    printf("Antes: %d\n", x);  // 5
+    int z = 5;
+    printf("Antes: %d\n", z);  // 5
     
-    incrementar(&x);  // & obtiene la dirección
-    printf("Después: %d\n", x);  // 6
+    incrementar(&z);  // & obtiene la dirección
+    printf("Después: %d\n", z);  // 6
+
+    int x = 10, y = 20;
+    printf("x=%d, y=%d\n", x, y);  // x=10, y=20
+    
+    swap(&x, &y);
+    printf("x=%d, y=%d\n", x, y);  // x=20, y=10
     
     return 0;
 }
