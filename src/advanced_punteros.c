@@ -5,6 +5,13 @@ void incrementar(int *num) {
     *num = *num + 1;  // * desreferencia (accede al valor)
 }
 
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
 int main() {
     int x = 5;
     printf("Antes: %d\n", x);  // 5
