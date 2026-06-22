@@ -15,6 +15,8 @@ int main() {
     *point = 24;
     imprimir(*point);
 
+    printf("bajo nivel");
+
 
     return 0;
 }
