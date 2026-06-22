@@ -12,6 +12,8 @@ int main() {
     printf("x antes: %d\n", x);  // 50
     cambiarPuntero(pp);
     printf("x después: %d\n", x);  // 100
+
+    printf("%d - %d", p, pp);
     
     return 0;
 }
